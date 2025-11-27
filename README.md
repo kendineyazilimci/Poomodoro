@@ -11,5 +11,5 @@ React Native ve Expo kullanılarak geliştirilmiş, odaklanmayı artırmak için
 ## Ekran Görüntüleri
 ![ss1](./assets/ss1.png)
 ![ss2](./assets/ss2.png)
-![ss3](./assets/ss3.png)
-![ss4](./assets/ss4.png)
+![ss3](./assets/ss3.jpg)
+![ss4](./assets/ss4.jpg)
