@@ -4,9 +4,13 @@
     "slug": "poomodoro",
     "version": "1.0.0",
     "orientation": "default",
-    "icon": "./assets/icon.png",
+    "favicon": "./assets/timerIcon.png",
     "userInterfaceStyle": "dark",
-    
+
+    "web": {
+    "favicon": "./assets/timerIcon.png",
+    },
+
     "androidStatusBar": {
       "hidden": false,
       "translucent": true,

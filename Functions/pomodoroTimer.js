@@ -32,16 +32,36 @@ function GeriyeSayim({ kalanSure, isActive, sureyiAyarla, setIsActive }) {
                 ? styles.landscapeButtonGroup 
                 : styles.portraitButtonGroup
             }>
+                <TouchableOpacity style={styles.timeButton} onPress={() => sureyiAyarla(5)}>
+                    <Text style={styles.timeButtonText}>5 DK</Text>
+                </TouchableOpacity>
+                
                 <TouchableOpacity style={styles.timeButton} onPress={() => sureyiAyarla(10)}>
                     <Text style={styles.timeButtonText}>10 DK</Text>
                 </TouchableOpacity>
-                
+
+                <TouchableOpacity style={styles.timeButton} onPress={() => sureyiAyarla(15)}>
+                    <Text style={styles.timeButtonText}>15 DK</Text>
+                </TouchableOpacity>
+
+                <TouchableOpacity style={styles.timeButton} onPress={() => sureyiAyarla(20)}>
+                    <Text style={styles.timeButtonText}>20 DK</Text>
+                </TouchableOpacity>
+
                 <TouchableOpacity style={styles.timeButton} onPress={() => sureyiAyarla(25)}>
                     <Text style={styles.timeButtonText}>25 DK</Text>
                 </TouchableOpacity>
                 
+                <TouchableOpacity style={styles.timeButton} onPress={() => sureyiAyarla(30)}>
+                    <Text style={styles.timeButtonText}>30 DK</Text>
+                </TouchableOpacity>
+
                 <TouchableOpacity style={styles.timeButton} onPress={() => sureyiAyarla(40)}>
                     <Text style={styles.timeButtonText}>40 DK</Text>
+                </TouchableOpacity>
+
+                <TouchableOpacity style={styles.timeButton} onPress={() => sureyiAyarla(60)}>
+                    <Text style={styles.timeButtonText}>1 Saat</Text>
                 </TouchableOpacity>
             </View>
 
