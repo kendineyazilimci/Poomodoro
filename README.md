@@ -6,7 +6,6 @@ React Native ve Expo kullanılarak geliştirilmiş, odaklanmayı artırmak için
 
 * **React Native:** Ana framework.
 * **Expo:** Geliştirme ve derleme aracı.
-* **Expo Navigation Bar:** Android alt navigasyon çubuğunu gizlemek ve şeffaflaştırmak için.
 
 ## Ekran Görüntüleri
 ![ss1](./assets/ss1.png)
